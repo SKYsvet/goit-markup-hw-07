@@ -1,0 +1,35 @@
+.advantage-list {
+  display: flex;
+}
+
+.advantage-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantage-list__wrap {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.advantage-list__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.advantage-list__title {
+  margin-bottom: 10px;
+  @include font($fw: 700, $fs: 16px);
+  text-transform: uppercase;
+  color: var(--color-title);
+}
+
+.advantage-list__text {
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
