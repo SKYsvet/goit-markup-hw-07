@@ -2,11 +2,11 @@
   background-color: #f5f4fa;
 }
 
-.cards-list {
+.cards {
   display: flex;
 }
 
-.cards-list__item {
+.cards__item {
   text-align: center;
   border-bottom: 1px solid transparent;
   border-radius: 4px;
@@ -18,11 +18,11 @@
   }
 }
 
-.cards-list__wrap {
+.cards__wrap {
   padding: 30px 0;
 }
 
-.cards-list__title {
+.cards__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -31,7 +31,7 @@
   color: var(--color-title);
 }
 
-.cards-list__text {
+.cards__text {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
